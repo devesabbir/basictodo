@@ -8,7 +8,7 @@ const useAxios = () => {
   const navigate = useNavigate()
 
   const axiosConfig = () => {
-    axios.defaults.baseURL = "http://localhost:7000";
+    axios.defaults.baseURL = "https://basictodo-two.vercel.app/";
   };
 
   const getSectors = async () => {
